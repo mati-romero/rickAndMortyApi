@@ -1,3 +1,39 @@
+# Proyecto Next.js con Tailwind CSS y ESLint
+
+Este proyecto fue creado con [Create Next App](https://nextjs.org/docs/app/api-reference/create-next-app) utilizando las siguientes opciones personalizadas:
+
+## 🔧 Configuración Inicial
+
+| Opción                      | Valor        |
+|----------------------------|--------------|
+| **Lenguaje**               | JavaScript   |
+| **ESLint**                 | ✅ Sí        |
+| **Tailwind CSS**           | ✅ Sí        |
+| **Directorio `/src`**      | ✅ Sí        |
+| **App Router (nuevo)**     | ✅ Sí        |
+| **Turbopack**              | ❌ No (usa Webpack) |
+| **Alias de imports**       | `@/*`        |
+
+---
+
+## 📁 Estructura del Proyecto
+
+```bash
+mi-proyecto/
+├── public/
+├── src/
+│   ├── app/           # App Router (rutas, layout, pages)
+│   ├── components/    # Componentes reutilizables
+│   └── styles/        # Archivos CSS o Tailwind config
+├── .eslintrc.json     # Configuración de ESLint
+├── tailwind.config.js # Configuración de Tailwind
+├── postcss.config.js  # Configuración de PostCSS
+├── jsconfig.json      # Alias de imports (@/*)
+├── package.json
+└── README.md
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
